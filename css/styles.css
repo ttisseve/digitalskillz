@@ -1,0 +1,78 @@
+body {
+  background:#EAF0EE;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: black;
+    }
+
+h1 {
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold ;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: #EAF0EE;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+p {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #1D2716;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  width: 95%;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background: #2D3E39;
+  align-items: center;
+
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+}
+
+.topnav {
+  height: 0%; /* 100% Full-height */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #2D3E39; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-left: 20px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.topnav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: inline-block;
+  transition: 0.3s;
+}
+.topnav a:hover {
+  color: #f1f1f1;
+}
+.topnav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
